@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FA0CA7287C470D00CDCDE1 /* avtodocTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */; };
+		05FA0CA9287C470D00CDCDE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CA8287C470D00CDCDE1 /* ContentView.swift */; };
+		05FA0CAB287C471000CDCDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA0CAA287C471000CDCDE1 /* Assets.xcassets */; };
+		05FA0CAE287C471000CDCDE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA0CAD287C471000CDCDE1 /* Preview Assets.xcassets */; };
+		05FA0CB8287C471000CDCDE1 /* avtodocTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CB7287C471000CDCDE1 /* avtodocTestTests.swift */; };
+		05FA0CC2287C471000CDCDE1 /* avtodocTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CC1287C471000CDCDE1 /* avtodocTestUITests.swift */; };
+		05FA0CC4287C471000CDCDE1 /* avtodocTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CC3287C471000CDCDE1 /* avtodocTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FA0CB4287C471000CDCDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FA0C9B287C470D00CDCDE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FA0CA2287C470D00CDCDE1;
+			remoteInfo = avtodocTest;
+		};
+		05FA0CBE287C471000CDCDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FA0C9B287C470D00CDCDE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FA0CA2287C470D00CDCDE1;
+			remoteInfo = avtodocTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FA0CA3287C470D00CDCDE1 /* avtodocTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avtodocTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avtodocTestApp.swift; sourceTree = "<group>"; };
+		05FA0CA8287C470D00CDCDE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05FA0CAA287C471000CDCDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FA0CAD287C471000CDCDE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05FA0CB3287C471000CDCDE1 /* avtodocTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avtodocTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FA0CB7287C471000CDCDE1 /* avtodocTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avtodocTestTests.swift; sourceTree = "<group>"; };
+		05FA0CBD287C471000CDCDE1 /* avtodocTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avtodocTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FA0CC1287C471000CDCDE1 /* avtodocTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avtodocTestUITests.swift; sourceTree = "<group>"; };
+		05FA0CC3287C471000CDCDE1 /* avtodocTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avtodocTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FA0CA0287C470D00CDCDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FA0CB0287C471000CDCDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FA0CBA287C471000CDCDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FA0C9A287C470D00CDCDE1 = {
+			isa = PBXGroup;
+			children = (
+				05FA0CA5287C470D00CDCDE1 /* avtodocTest */,
+				05FA0CB6287C471000CDCDE1 /* avtodocTestTests */,
+				05FA0CC0287C471000CDCDE1 /* avtodocTestUITests */,
+				05FA0CA4287C470D00CDCDE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FA0CA4287C470D00CDCDE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CA3287C470D00CDCDE1 /* avtodocTest.app */,
+				05FA0CB3287C471000CDCDE1 /* avtodocTestTests.xctest */,
+				05FA0CBD287C471000CDCDE1 /* avtodocTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FA0CA5287C470D00CDCDE1 /* avtodocTest */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */,
+				05FA0CA8287C470D00CDCDE1 /* ContentView.swift */,
+				05FA0CAA287C471000CDCDE1 /* Assets.xcassets */,
+				05FA0CAC287C471000CDCDE1 /* Preview Content */,
+			);
+			path = avtodocTest;
+			sourceTree = "<group>";
+		};
+		05FA0CAC287C471000CDCDE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CAD287C471000CDCDE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05FA0CB6287C471000CDCDE1 /* avtodocTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CB7287C471000CDCDE1 /* avtodocTestTests.swift */,
+			);
+			path = avtodocTestTests;
+			sourceTree = "<group>";
+		};
+		05FA0CC0287C471000CDCDE1 /* avtodocTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CC1287C471000CDCDE1 /* avtodocTestUITests.swift */,
+				05FA0CC3287C471000CDCDE1 /* avtodocTestUITestsLaunchTests.swift */,
+			);
+			path = avtodocTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FA0CA2287C470D00CDCDE1 /* avtodocTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FA0CC7287C471000CDCDE1 /* Build configuration list for PBXNativeTarget "avtodocTest" */;
+			buildPhases = (
+				05FA0C9F287C470D00CDCDE1 /* Sources */,
+				05FA0CA0287C470D00CDCDE1 /* Frameworks */,
+				05FA0CA1287C470D00CDCDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avtodocTest;
+			productName = avtodocTest;
+			productReference = 05FA0CA3287C470D00CDCDE1 /* avtodocTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05FA0CB2287C471000CDCDE1 /* avtodocTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FA0CCA287C471000CDCDE1 /* Build configuration list for PBXNativeTarget "avtodocTestTests" */;
+			buildPhases = (
+				05FA0CAF287C471000CDCDE1 /* Sources */,
+				05FA0CB0287C471000CDCDE1 /* Frameworks */,
+				05FA0CB1287C471000CDCDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FA0CB5287C471000CDCDE1 /* PBXTargetDependency */,
+			);
+			name = avtodocTestTests;
+			productName = avtodocTestTests;
+			productReference = 05FA0CB3287C471000CDCDE1 /* avtodocTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05FA0CBC287C471000CDCDE1 /* avtodocTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FA0CCD287C471000CDCDE1 /* Build configuration list for PBXNativeTarget "avtodocTestUITests" */;
+			buildPhases = (
+				05FA0CB9287C471000CDCDE1 /* Sources */,
+				05FA0CBA287C471000CDCDE1 /* Frameworks */,
+				05FA0CBB287C471000CDCDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FA0CBF287C471000CDCDE1 /* PBXTargetDependency */,
+			);
+			name = avtodocTestUITests;
+			productName = avtodocTestUITests;
+			productReference = 05FA0CBD287C471000CDCDE1 /* avtodocTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FA0C9B287C470D00CDCDE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					05FA0CA2287C470D00CDCDE1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					05FA0CB2287C471000CDCDE1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 05FA0CA2287C470D00CDCDE1;
+					};
+					05FA0CBC287C471000CDCDE1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 05FA0CA2287C470D00CDCDE1;
+					};
+				};
+			};
+			buildConfigurationList = 05FA0C9E287C470D00CDCDE1 /* Build configuration list for PBXProject "avtodocTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FA0C9A287C470D00CDCDE1;
+			productRefGroup = 05FA0CA4287C470D00CDCDE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FA0CA2287C470D00CDCDE1 /* avtodocTest */,
+				05FA0CB2287C471000CDCDE1 /* avtodocTestTests */,
+				05FA0CBC287C471000CDCDE1 /* avtodocTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FA0CA1287C470D00CDCDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FA0CAE287C471000CDCDE1 /* Preview Assets.xcassets in Resources */,
+				05FA0CAB287C471000CDCDE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FA0CB1287C471000CDCDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FA0CBB287C471000CDCDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FA0C9F287C470D00CDCDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FA0CA9287C470D00CDCDE1 /* ContentView.swift in Sources */,
+				05FA0CA7287C470D00CDCDE1 /* avtodocTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FA0CAF287C471000CDCDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FA0CB8287C471000CDCDE1 /* avtodocTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FA0CB9287C471000CDCDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FA0CC2287C471000CDCDE1 /* avtodocTestUITests.swift in Sources */,
+				05FA0CC4287C471000CDCDE1 /* avtodocTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FA0CB5287C471000CDCDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FA0CA2287C470D00CDCDE1 /* avtodocTest */;
+			targetProxy = 05FA0CB4287C471000CDCDE1 /* PBXContainerItemProxy */;
+		};
+		05FA0CBF287C471000CDCDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FA0CA2287C470D00CDCDE1 /* avtodocTest */;
+			targetProxy = 05FA0CBE287C471000CDCDE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FA0CC5287C471000CDCDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05FA0CC6287C471000CDCDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05FA0CC8287C471000CDCDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"avtodocTest/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PA5V3MFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnxi.avtodocTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FA0CC9287C471000CDCDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"avtodocTest/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PA5V3MFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnxi.avtodocTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05FA0CCB287C471000CDCDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8PA5V3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnxi.avtodocTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/avtodocTest.app/avtodocTest";
+			};
+			name = Debug;
+		};
+		05FA0CCC287C471000CDCDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8PA5V3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnxi.avtodocTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/avtodocTest.app/avtodocTest";
+			};
+			name = Release;
+		};
+		05FA0CCE287C471000CDCDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8PA5V3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnxi.avtodocTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = avtodocTest;
+			};
+			name = Debug;
+		};
+		05FA0CCF287C471000CDCDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8PA5V3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnxi.avtodocTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = avtodocTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FA0C9E287C470D00CDCDE1 /* Build configuration list for PBXProject "avtodocTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA0CC5287C471000CDCDE1 /* Debug */,
+				05FA0CC6287C471000CDCDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FA0CC7287C471000CDCDE1 /* Build configuration list for PBXNativeTarget "avtodocTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA0CC8287C471000CDCDE1 /* Debug */,
+				05FA0CC9287C471000CDCDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FA0CCA287C471000CDCDE1 /* Build configuration list for PBXNativeTarget "avtodocTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA0CCB287C471000CDCDE1 /* Debug */,
+				05FA0CCC287C471000CDCDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FA0CCD287C471000CDCDE1 /* Build configuration list for PBXNativeTarget "avtodocTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA0CCE287C471000CDCDE1 /* Debug */,
+				05FA0CCF287C471000CDCDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FA0C9B287C470D00CDCDE1 /* Project object */;
+}
