@@ -11,7 +11,8 @@ import SwiftUI
 struct avtodocTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            NewListView(viewModel: NewsListViewModel())
         }
     }
 }
