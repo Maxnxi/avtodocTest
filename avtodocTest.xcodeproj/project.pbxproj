@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A7C645287F053B00CB3BE8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C644287F053B00CB3BE8 /* NetworkService.swift */; };
+		05A7C64A288150B500CB3BE8 /* NetworkServiceAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C649288150B500CB3BE8 /* NetworkServiceAwait.swift */; };
+		05A7C64D28815A8200CB3BE8 /* News2ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C64C28815A8200CB3BE8 /* News2ListView.swift */; };
+		05A7C65028815B6100CB3BE8 /* News2ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C64F28815B6100CB3BE8 /* News2ListViewModel.swift */; };
 		05FA0CA7287C470D00CDCDE1 /* avtodocTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */; };
 		05FA0CA9287C470D00CDCDE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CA8287C470D00CDCDE1 /* ContentView.swift */; };
 		05FA0CAB287C471000CDCDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA0CAA287C471000CDCDE1 /* Assets.xcassets */; };
@@ -28,6 +32,8 @@
 		05FA0CF4287C767E00CDCDE1 /* NewRepoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CF3287C767E00CDCDE1 /* NewRepoDataSource.swift */; };
 		05FA0CF6287D5D1D00CDCDE1 /* NewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CF5287D5D1D00CDCDE1 /* NewDetailView.swift */; };
 		05FA0CF8287D5D7000CDCDE1 /* NewListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CF7287D5D7000CDCDE1 /* NewListCellView.swift */; };
+		05FA0CFC287EDB7F00CDCDE1 /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CFB287EDB7F00CDCDE1 /* CustomTab.swift */; };
+		05FA0CFE287EDEF400CDCDE1 /* CurvedTabBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CFD287EDEF400CDCDE1 /* CurvedTabBack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A7C644287F053B00CB3BE8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		05A7C649288150B500CB3BE8 /* NetworkServiceAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceAwait.swift; sourceTree = "<group>"; };
+		05A7C64C28815A8200CB3BE8 /* News2ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News2ListView.swift; sourceTree = "<group>"; };
+		05A7C64F28815B6100CB3BE8 /* News2ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News2ListViewModel.swift; sourceTree = "<group>"; };
 		05FA0CA3287C470D00CDCDE1 /* avtodocTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avtodocTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avtodocTestApp.swift; sourceTree = "<group>"; };
 		05FA0CA8287C470D00CDCDE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +82,8 @@
 		05FA0CF3287C767E00CDCDE1 /* NewRepoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRepoDataSource.swift; sourceTree = "<group>"; };
 		05FA0CF5287D5D1D00CDCDE1 /* NewDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDetailView.swift; sourceTree = "<group>"; };
 		05FA0CF7287D5D7000CDCDE1 /* NewListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListCellView.swift; sourceTree = "<group>"; };
+		05FA0CFB287EDB7F00CDCDE1 /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
+		05FA0CFD287EDEF400CDCDE1 /* CurvedTabBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A7C643287F050B00CB3BE8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				05A7C64B28815A5700CB3BE8 /* DataBases */,
+				05A7C6482881508F00CB3BE8 /* NetworkServiceAwait */,
+				05A7C644287F053B00CB3BE8 /* NetworkService.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		05A7C646287F075600CB3BE8 /* News2 */ = {
+			isa = PBXGroup;
+			children = (
+				05A7C64E28815B5100CB3BE8 /* ViewModel */,
+				05A7C64C28815A8200CB3BE8 /* News2ListView.swift */,
+			);
+			path = News2;
+			sourceTree = "<group>";
+		};
+		05A7C647287F076900CB3BE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CF9287D5F0E00CDCDE1 /* cell */,
+				05FA0CF5287D5D1D00CDCDE1 /* NewDetailView.swift */,
+				05FA0CE3287C572B00CDCDE1 /* NewListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05A7C6482881508F00CB3BE8 /* NetworkServiceAwait */ = {
+			isa = PBXGroup;
+			children = (
+				05A7C649288150B500CB3BE8 /* NetworkServiceAwait.swift */,
+			);
+			path = NetworkServiceAwait;
+			sourceTree = "<group>";
+		};
+		05A7C64B28815A5700CB3BE8 /* DataBases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBases;
+			sourceTree = "<group>";
+		};
+		05A7C64E28815B5100CB3BE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05A7C64F28815B6100CB3BE8 /* News2ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		05FA0C9A287C470D00CDCDE1 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				05FA0CEA287C5A4700CDCDE1 /* other */,
+				05A7C643287F050B00CB3BE8 /* Core */,
 				05FA0CE9287C5A3C00CDCDE1 /* Model */,
-				05FA0CD9287C4B0800CDCDE1 /* Scenes */,
+				05FA0CD9287C4B0800CDCDE1 /* Flow */,
 				05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */,
 				05FA0CAA287C471000CDCDE1 /* Assets.xcassets */,
 				05FA0CAC287C471000CDCDE1 /* Preview Content */,
@@ -181,13 +246,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		05FA0CD9287C4B0800CDCDE1 /* Scenes */ = {
+		05FA0CD9287C4B0800CDCDE1 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				05FA0CE5287C592A00CDCDE1 /* News */,
+				05FA0CFA287EDB7200CDCDE1 /* CustomTab */,
+				05A7C646287F075600CB3BE8 /* News2 */,
+				05FA0CE5287C592A00CDCDE1 /* News1 */,
 				05FA0CA8287C470D00CDCDE1 /* ContentView.swift */,
 			);
-			path = Scenes;
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		05FA0CDA287C4BB400CDCDE1 /* Entities */ = {
@@ -209,15 +276,13 @@
 			path = "Server Entities";
 			sourceTree = "<group>";
 		};
-		05FA0CE5287C592A00CDCDE1 /* News */ = {
+		05FA0CE5287C592A00CDCDE1 /* News1 */ = {
 			isa = PBXGroup;
 			children = (
-				05FA0CF9287D5F0E00CDCDE1 /* cell */,
-				05FA0CF5287D5D1D00CDCDE1 /* NewDetailView.swift */,
-				05FA0CE3287C572B00CDCDE1 /* NewListView.swift */,
 				05FA0CE6287C593500CDCDE1 /* ViewModel */,
+				05A7C647287F076900CB3BE8 /* View */,
 			);
-			path = News;
+			path = News1;
 			sourceTree = "<group>";
 		};
 		05FA0CE6287C593500CDCDE1 /* ViewModel */ = {
@@ -271,6 +336,15 @@
 				05FA0CF7287D5D7000CDCDE1 /* NewListCellView.swift */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		05FA0CFA287EDB7200CDCDE1 /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				05FA0CFB287EDB7F00CDCDE1 /* CustomTab.swift */,
+				05FA0CFD287EDEF400CDCDE1 /* CurvedTabBack.swift */,
+			);
+			path = CustomTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,18 +478,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FA0CF0287C5B3800CDCDE1 /* NewRepo.swift in Sources */,
+				05A7C64A288150B500CB3BE8 /* NetworkServiceAwait.swift in Sources */,
+				05A7C64D28815A8200CB3BE8 /* News2ListView.swift in Sources */,
 				05FA0CF8287D5D7000CDCDE1 /* NewListCellView.swift in Sources */,
+				05A7C65028815B6100CB3BE8 /* News2ListViewModel.swift in Sources */,
 				05FA0CD8287C4AC600CDCDE1 /* UrlConstants.swift in Sources */,
 				05FA0CD5287C4A1A00CDCDE1 /* HTTPError.swift in Sources */,
 				05FA0CD2287C480500CDCDE1 /* ApiManager.swift in Sources */,
 				05FA0CE4287C572B00CDCDE1 /* NewListView.swift in Sources */,
+				05FA0CFC287EDB7F00CDCDE1 /* CustomTab.swift in Sources */,
 				05FA0CA9287C470D00CDCDE1 /* ContentView.swift in Sources */,
 				05FA0CDC287C4BC900CDCDE1 /* ServerNewsResponse.swift in Sources */,
 				05FA0CDF287C4CDC00CDCDE1 /* ServerBaseResponse.swift in Sources */,
 				05FA0CF2287C766700CDCDE1 /* NewRepoImpl.swift in Sources */,
+				05FA0CFE287EDEF400CDCDE1 /* CurvedTabBack.swift in Sources */,
 				05FA0CE8287C594800CDCDE1 /* NewsListViewModel.swift in Sources */,
 				05FA0CF6287D5D1D00CDCDE1 /* NewDetailView.swift in Sources */,
 				05FA0CE2287C4E6300CDCDE1 /* New.swift in Sources */,
+				05A7C645287F053B00CB3BE8 /* NetworkService.swift in Sources */,
 				05FA0CF4287C767E00CDCDE1 /* NewRepoDataSource.swift in Sources */,
 				05FA0CED287C5A9D00CDCDE1 /* GetNewsForPageUseCase.swift in Sources */,
 				05FA0CA7287C470D00CDCDE1 /* avtodocTestApp.swift in Sources */,

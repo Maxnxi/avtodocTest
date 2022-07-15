@@ -12,7 +12,8 @@ struct avtodocTestApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            NewListView(viewModel: NewsListViewModel())
+            //NewListView(viewModel: NewsListViewModel())
+            CustomTab()
         }
     }
 }

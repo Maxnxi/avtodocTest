@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewListView: View {
+    
     @ObservedObject var viewModel: NewsListViewModel
     
     var body: some View {
@@ -20,12 +21,6 @@ struct NewListView: View {
                             NavigationLink(destination: NewDetailView()) {
                                 
                                     NewListCellView(viewModel: new)
-//                                    .onAppear() {
-//                                        if new == viewModel.news.last {
-//                                            viewModel.getNewsForPage(viewModel.currentPage)
-//                                        }
-//                                    }
-                                
                             }
                             .onAppear() {
                                 if new == viewModel.news.last {
@@ -33,12 +28,9 @@ struct NewListView: View {
                                 }
                             }
                         }
-                    }
-                    
-                }
-                
-                
-            }
+                    } // Section
+                } // List
+            } // VStack
             .background(Color.green)
             .onAppear() {
                 if viewModel.news.isEmpty {

@@ -25,10 +25,13 @@ class NewsListViewModel: ObservableObject {
                 switch completion {
                 case .finished:
                     debugPrint("Something received from server")
+                    print("Current page is = ", self?.currentPage)
                     self?.currentPage += 1
                     print("current page is = ", self?.currentPage)
                     break
-                case . failure:
+                case .failure:
+                    print("Something broken")
+                    self?.currentPage += 1
                     break
                 }
             } receiveValue: { news in
