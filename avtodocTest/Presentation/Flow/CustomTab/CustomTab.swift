@@ -20,7 +20,7 @@ struct CustomTab: View {
             case 1:
                 News2ListView(viewModel: News2ListViewModel())
             case 2:
-                Text("in dev 3")
+                News3ListView(viewModel: News2ListViewModel())
             case 3:
                 Text("in dev 4")
             case 4:
@@ -99,7 +99,8 @@ struct CustomTab: View {
                 .offset(y: -22)
                 .shadow(radius: 5)
             }
-        }.background(Color.black.edgesIgnoringSafeArea(.top))
+        }
+        //.background(Color.black.edgesIgnoringSafeArea(.top))
             //.preferredColorScheme(.dark)
     }
 }

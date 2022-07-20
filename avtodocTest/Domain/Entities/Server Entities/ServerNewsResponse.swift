@@ -18,8 +18,8 @@ struct ServerNew: Codable {
     let id: Int
     let title, newsDescription, publishedDate, url: String
     let fullURL: String
-    let titleImageURL: String
-    let categoryType: String
+    let titleImageURL: String?
+    let categoryType: CategoryType
 
     enum CodingKeys: String, CodingKey {
         case id, title
@@ -37,8 +37,13 @@ struct ServerNew: Codable {
                    publishedDate: publishedDate,
                    url: url,
                    fullURL: fullURL,
-                   titleImageURL: titleImageURL,
-                   categoryType: categoryType)
+                   titleImageURL: titleImageURL ?? "",
+                   categoryType: categoryType.rawValue)
     }
     
+}
+
+enum CategoryType: String, Codable {
+    case автомобильныеНовости = "Автомобильные новости"
+    case новостиКомпании = "Новости компании"
 }
