@@ -45,7 +45,7 @@ class NetworkServiceAwInputImpl: NetworkServiceAwInput {
         let (data, response) = try await URLSession.shared.data(for: request)
         guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw HTTPError.invalidStatusCode }
         let img = UIImage(data: data)
-        guard let thumbnail = await img else { throw HTTPError.invalidResponse }
+        guard let thumbnail = img else { throw HTTPError.invalidResponse }
         return thumbnail
     }
 

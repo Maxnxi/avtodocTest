@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050BFBC42887EDBB008D75A7 /* NewsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050BFBC32887EDBB008D75A7 /* NewsCellViewModel.swift */; };
 		05A7C645287F053B00CB3BE8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C644287F053B00CB3BE8 /* NetworkService.swift */; };
 		05A7C64A288150B500CB3BE8 /* NetworkServiceAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C649288150B500CB3BE8 /* NetworkServiceAwait.swift */; };
 		05A7C64D28815A8200CB3BE8 /* News2ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A7C64C28815A8200CB3BE8 /* News2ListView.swift */; };
@@ -15,8 +16,8 @@
 		05E3C702288549F1001C93D0 /* News3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3C701288549F1001C93D0 /* News3ViewModel.swift */; };
 		05E3C70528854C56001C93D0 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3C70428854C56001C93D0 /* CollectionView.swift */; };
 		05E3C7072885572D001C93D0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3C7062885572D001C93D0 /* ListViewController.swift */; };
-		05E3C70B28855770001C93D0 /* DummyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05E3C70928855770001C93D0 /* DummyCell.xib */; };
-		05E3C70C28855770001C93D0 /* DummyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3C70A28855770001C93D0 /* DummyCell.swift */; };
+		05E3C70B28855770001C93D0 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05E3C70928855770001C93D0 /* NewsCell.xib */; };
+		05E3C70C28855770001C93D0 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3C70A28855770001C93D0 /* NewsCell.swift */; };
 		05FA0CA7287C470D00CDCDE1 /* avtodocTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */; };
 		05FA0CAB287C471000CDCDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA0CAA287C471000CDCDE1 /* Assets.xcassets */; };
 		05FA0CAE287C471000CDCDE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA0CAD287C471000CDCDE1 /* Preview Assets.xcassets */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050BFBC32887EDBB008D75A7 /* NewsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellViewModel.swift; sourceTree = "<group>"; };
 		05A7C644287F053B00CB3BE8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		05A7C649288150B500CB3BE8 /* NetworkServiceAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceAwait.swift; sourceTree = "<group>"; };
 		05A7C64C28815A8200CB3BE8 /* News2ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News2ListView.swift; sourceTree = "<group>"; };
@@ -67,8 +69,8 @@
 		05E3C701288549F1001C93D0 /* News3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News3ViewModel.swift; sourceTree = "<group>"; };
 		05E3C70428854C56001C93D0 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		05E3C7062885572D001C93D0 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		05E3C70928855770001C93D0 /* DummyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DummyCell.xib; sourceTree = "<group>"; };
-		05E3C70A28855770001C93D0 /* DummyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyCell.swift; sourceTree = "<group>"; };
+		05E3C70928855770001C93D0 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		05E3C70A28855770001C93D0 /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		05FA0CA3287C470D00CDCDE1 /* avtodocTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avtodocTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FA0CA6287C470D00CDCDE1 /* avtodocTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avtodocTestApp.swift; sourceTree = "<group>"; };
 		05FA0CAA287C471000CDCDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -223,8 +225,9 @@
 		05E3C7082885575D001C93D0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				05E3C70A28855770001C93D0 /* DummyCell.swift */,
-				05E3C70928855770001C93D0 /* DummyCell.xib */,
+				05E3C70A28855770001C93D0 /* NewsCell.swift */,
+				05E3C70928855770001C93D0 /* NewsCell.xib */,
+				050BFBC32887EDBB008D75A7 /* NewsCellViewModel.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -484,7 +487,7 @@
 			files = (
 				05FA0CAE287C471000CDCDE1 /* Preview Assets.xcassets in Resources */,
 				05FA0CAB287C471000CDCDE1 /* Assets.xcassets in Resources */,
-				05E3C70B28855770001C93D0 /* DummyCell.xib in Resources */,
+				05E3C70B28855770001C93D0 /* NewsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,9 +530,10 @@
 				05FA0CFE287EDEF400CDCDE1 /* CurvedTabBack.swift in Sources */,
 				05E3C702288549F1001C93D0 /* News3ViewModel.swift in Sources */,
 				05FA0CE8287C594800CDCDE1 /* NewsListViewModel.swift in Sources */,
-				05E3C70C28855770001C93D0 /* DummyCell.swift in Sources */,
+				05E3C70C28855770001C93D0 /* NewsCell.swift in Sources */,
 				05FA0CF6287D5D1D00CDCDE1 /* NewDetailView.swift in Sources */,
 				05FA0CE2287C4E6300CDCDE1 /* New.swift in Sources */,
+				050BFBC42887EDBB008D75A7 /* NewsCellViewModel.swift in Sources */,
 				05E3C6FF288549B4001C93D0 /* News3ListView.swift in Sources */,
 				05A7C645287F053B00CB3BE8 /* NetworkService.swift in Sources */,
 				05FA0CF4287C767E00CDCDE1 /* NewRepoDataSource.swift in Sources */,
